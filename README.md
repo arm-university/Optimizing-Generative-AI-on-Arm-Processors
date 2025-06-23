@@ -14,7 +14,7 @@ This course consists of three hands-on labs and four lectures.
 
 ### Hands-On Labs
 - **Lab 1**: Optimizing generative AI on mobile devices, such as the Raspberry Pi 5.
-- **Lab 2**: Deploying AI workloads on Arm-based cloud servers, including AWS Graviton.
+- **Lab 2**: Deploying AI workloads on Arm-based Cloud servers, including AWS Graviton.
 - **Lab 3**: Comparing Cloud vs. Edge inference, analyzing challenges and trade-offs.
 
 ### Lecture Series
@@ -27,7 +27,7 @@ Inside the `slides/` folder, you will find four lectures covering the key concep
 
 ## What You'll Learn
 
-You will learn how to optimize AI inference using Arm-specific techniques such as SIMD (SVE, Neon) and low-bit quantization. The course covers practical strategies for running generative AI efficiently on mobile, Edge, and Cloud-based Arm platforms. You will also explore the trade-offs between cloud and edge deployment, gaining both theoretical knowledge and hands-on skills.
+You will learn how to optimize AI inference using Arm-specific techniques such as SIMD (SVE, NEON) and low-bit quantization. The course covers practical strategies for running generative AI efficiently on mobile, Edge, and Cloud-based Arm platforms. You will also explore the trade-offs between Cloud and Edge deployment, gaining both theoretical knowledge and hands-on skills.
 
 By the end of this course, you will have a strong foundation in deploying high-performance AI models on Arm hardware.
 
@@ -35,7 +35,7 @@ By the end of this course, you will have a strong foundation in deploying high-p
 
 This course assumes a foundational understanding of machine learning, including completion of a basic introductory course, such as one at the undergraduate level.
 
-Additionally to run the laboratory exercises, we assume you have access to a Raspberry Pi 5 and an Arm-based cloud instance. We have validated this on an AWS Graviton instance but it is expected to work through other cloud service providers. 
+Additionally to run the laboratory exercises, we assume you have access to a Raspberry Pi 5 and an Arm-based Cloud instance. We have validated this on an AWS Graviton instance but it is expected to work through other Cloud service providers. 
 
 
 ---
@@ -113,13 +113,13 @@ Additionally to run the laboratory exercises, we assume you have access to a Ras
 ### **Lab 3: Comparative Inference Benchmarking on Arm Server and Edge Devices**
 
 1. Follow the setup stpes for `lab1` on your local Raspberry Pi.
-2. Follow the setup stpes for `lab2` on your Raspberry Pi, to create and connect to a cloud instance.
+2. Follow the setup stpes for `lab2` on your Raspberry Pi, to create and connect to a Cloud instance.
 3. Open `lab3.ipynb` to find the instructions for completing the lab 
 
 ---
 
 ## **Additional Notes**
-- To complete this course you are required to have access to a Raspberry Pi 5, for the cloud sections, AWS can be utilised. 
+- To complete this course you are required to have access to a Raspberry Pi 5, for the Cloud sections, AWS can be utilised. 
 - For Lab 2 and 3 make sure to terminate the EC2 instance when you're done to avoid unnecessary charges.
 
 **Happy learning!**
