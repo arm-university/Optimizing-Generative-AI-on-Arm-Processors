@@ -27,7 +27,7 @@ Inside the `slides/` folder, you will find four lectures covering the key concep
 
 ## What You'll Learn
 
-You will learn how to optimize AI inference using Arm-specific techniques such as SIMD (SVE, Neon) and low-bit quantization. The course covers practical strategies for running generative AI efficiently on mobile, Edge, and Cloud-based Arm platforms. You will also explore the trade-offs between cloud and edge deployment, gaining both theoretical knowledge and hands-on skills.
+You will learn how to optimize AI inference using Arm-specific techniques such as SIMD (SVE, NEON) and low-bit quantization. The course covers practical strategies for running generative AI efficiently on mobile, Edge, and Cloud-based Arm platforms. You will also explore the trade-offs between Cloud and Edge deployment, gaining both theoretical knowledge and hands-on skills.
 
 By the end of this course, you will have a strong foundation in deploying high-performance AI models on Arm hardware.
 
