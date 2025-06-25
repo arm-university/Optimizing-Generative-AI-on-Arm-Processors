@@ -3,10 +3,12 @@
 set -e
 
 echo "======================================================================="
-echo "  1. Update and upgrade the system"
+echo "  1. Update and upgrade the system (non-interactive)"
 echo "======================================================================="
-sudo apt update
-sudo apt upgrade -y
+export DEBIAN_FRONTEND=noninteractive
+export NEEDRESTART_MODE=a          # or NEEDRESTART_SUSPEND=1
+sudo apt-get update -y
+sudo apt-get upgrade -y
 
 echo "======================================================================="
 echo "  2. Add essential development packages"
@@ -68,7 +70,7 @@ python3.10 -m pip install --upgrade \
     numpy \
     matplotlib \
     pandas \
-    transformers \
+    transformers==4.39.3 \
     jupyterlab \
     ipykernel \
     ipywidgets \
@@ -140,6 +142,8 @@ sudo apt-get install -y linux-tools-generic
 cd processwatch
 ./build.sh
 cd ..
+echo "ubuntu ALL=(ALL) NOPASSWD: /home/ubuntu/processwatch/processwatch" | sudo tee /etc/sudoers.d/99-processwatch
+sudo chmod 0440 /etc/sudoers.d/99-processwatch
 #############################################################################
 
 echo "======================================================================="
