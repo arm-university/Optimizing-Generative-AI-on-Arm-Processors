@@ -84,7 +84,7 @@ Additionally to run the laboratory exercises, we assume you have access to a Ras
 3. **Clone the repository**  
    Once connected to the instance, clone the repository:
    ```bash
-   git clone git@github.com:arm-university/AI-on-Arm.git
+   git clone https://github.com/arm-university/AI-on-Arm.git
    ```
 
 4. **Run the setup script**  
