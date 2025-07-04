@@ -1,4 +1,4 @@
-# **AI on Arm**
+# **Optimizing Generative AI on Arm Processors**
 
 ![learn_on_arm](./img/Learn%20on%20Arm_banner.png)
 
@@ -6,7 +6,7 @@
 ### To download the latest stable version, please click below instead of using the "Download ZIP" button.
 ### [Click here to download](https://github.com/arm-university/AI-on-Arm/releases/download/v1.0.0/AI-on-Arm-main.zip)
 
-Welcome to **Generative AI on Arm**, a hands-on course designed to help you optimize generative AI workloads on Arm architectures. Through practical labs and structured lectures, you will learn how to deploy AI models efficiently across different Arm-based environments.
+Welcome to **Optimizing Generative AI on Arm Processors**, a hands-on course designed to help you optimize generative AI workloads on Arm architectures. Through practical labs and structured lectures, you will learn how to deploy AI models efficiently across different Arm-based environments.
 
 ## Course Structure
 
